@@ -22,7 +22,7 @@ class LibraryTest {
 
     @BeforeAll
     static void BeforeStart() {
-        library1 = new LibraryImpl(1, "Mrs Jill", (short) 39);
+        library1 = new LibraryImpl(1, "Mrs Jilly", (short) 39);
         Library.LibraryWork();
     }
 
