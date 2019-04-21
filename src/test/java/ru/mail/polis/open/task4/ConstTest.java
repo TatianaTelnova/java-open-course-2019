@@ -10,10 +10,10 @@ class ConstTest {
     @Test
     void test() {
         assertEquals(
-            5,
-            new Const(
-                5
-            ).evaluate()
+                5,
+                new Const(
+                        5
+                ).evaluate()
         );
     }
 
